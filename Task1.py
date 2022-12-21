@@ -29,5 +29,5 @@ list_odd = list_rand[1::2]
 
 print(f'У списка {list_rand} на нечетных позициях \nстоят элементы ', end='')
 print(*list_odd, sep=' и ', end='')
-print(f', а их сумма равна {sum(list_rand[1::2])}')
+print(f', а их сумма равна {sum(list_odd)}')
 
